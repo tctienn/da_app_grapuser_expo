@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "grapappservice",
+    
     "slug": "grapappservice",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +14,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/images/icon.png"
+
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +34,20 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9bb6d221-9945-476e-8134-91e56b3e2284"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9bb6d221-9945-476e-8134-91e56b3e2284"
     }
   }
 }
